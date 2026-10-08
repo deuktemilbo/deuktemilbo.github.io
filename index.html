@@ -2,23 +2,23 @@
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex">
 <title>득템일보 | 영상 속 꿀템 모음</title>
-<meta name="description" content="득템일보 영상에 나온 상품을 회차로 바로 찾아보세요.">
-<meta property="og:title" content="득템일보 · 영상 속 꿀템 모음"><meta property="og:description" content="득템일보 영상에 나온 상품을 회차로 바로 찾아보세요.">
+<meta name="description" content="영상에 나온 상품을 회차로 바로 찾아보세요.">
+<meta property="og:title" content="득템일보 · 영상 속 꿀템 모음"><meta property="og:description" content="영상에 나온 상품을 회차로 바로 찾아보세요.">
 <meta property="og:image" content="https://deuktemilbo.github.io/img/profile.jpg"><meta property="og:type" content="website">
 <link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192.png">
-<link rel="apple-touch-icon" href="img/apple-touch-icon.png"><meta name="theme-color" content="#CA4145">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png"><meta name="theme-color" content="#f6f1e4">
 <style>
 /* 인포크·리틀리 같은 링크 모음 모양(10/6 회장님 「처음 온 사람도 이질감 없이」) — 흐르는 공정위 띠 · 로고 표지 · 이름 · 검색 · 사진 카드 */
-:root{--bg:#eff0f2;--card:#fff;--ink:#222;--sub:#8a8f98;--line:#e6e8eb;--brand:#CA4145;--brand-ink:#9f2f33;--cream:#fbf1ee;--cp:#e4002b;--nv:#03c75a;color-scheme:light}
+:root{--bg:#eff0f2;--card:#fff;--ink:#222;--sub:#8a8f98;--line:#e6e8eb;--brand:#58a03c;--brand-ink:#2f6b1c;--cream:#f6f1e4;--cp:#e4002b;--nv:#03c75a;color-scheme:light}
 *{box-sizing:border-box}html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif;-webkit-font-smoothing:antialiased}
 .wrap{max-width:480px;margin:0 auto;background:var(--bg);min-height:100vh}
-.tick{position:sticky;top:0;z-index:5;background:#2f3130;color:#ffd2cc;font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;padding:9px 0}
+.tick{position:sticky;top:0;z-index:5;background:#2f3130;color:#9ccf7f;font-size:13px;font-weight:700;white-space:nowrap;overflow:hidden;padding:9px 0}
 .tick span{display:inline-block;padding-left:100%;animation:tick 16s linear infinite}
 @keyframes tick{to{transform:translateX(-100%)}}
 @media (prefers-reduced-motion:reduce){.tick span{animation:none;padding-left:16px;white-space:normal}}
 .cover{background:var(--cream);display:flex;justify-content:center;align-items:center;padding:34px 16px 30px;position:relative;overflow:hidden}
-.cover:before,.cover:after{content:"✦";position:absolute;color:#f3c4bd;font-size:44px}.cover:before{left:12%;top:22%}.cover:after{right:13%;bottom:18%;font-size:30px}
+.cover:before,.cover:after{content:"✦";position:absolute;color:#cfe3c2;font-size:44px}.cover:before{left:12%;top:22%}.cover:after{right:13%;bottom:18%;font-size:30px}
 .cover img{width:150px;height:150px;border-radius:50%;box-shadow:0 6px 18px rgba(80,60,20,.15);background:#fff}
 .who{text-align:center;padding:18px 16px 6px}
 .who h1{margin:0;font-size:21px;font-weight:800;letter-spacing:-.3px}
@@ -30,7 +30,7 @@ body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSys
 .search svg{position:absolute;left:16px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:#a3a8b0}
 .search input{width:100%;font-size:16px;padding:15px 16px 15px 46px;border:1px solid var(--line);border-radius:14px;background:#f7f8fa;color:var(--ink);font-family:inherit}
 .search input:focus{outline:none;border-color:var(--brand);background:#fff}
-.chip{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 16px 0;padding:10px 14px;background:#fbe3df;color:var(--brand-ink);border-radius:12px;font-size:14px;font-weight:700}
+.chip{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:10px 16px 0;padding:10px 14px;background:#e8f3e1;color:var(--brand-ink);border-radius:12px;font-size:14px;font-weight:700}
 .chip button{border:0;background:#fff;color:var(--brand-ink);border-radius:999px;padding:6px 12px;font-weight:700;font-size:13px;font-family:inherit;cursor:pointer}
 #list{padding:8px 16px 0}
 .card{display:flex;gap:14px;align-items:center;background:var(--card);border-radius:16px;padding:12px;margin-top:12px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
@@ -47,13 +47,17 @@ body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSys
 .old .ico{flex:none;width:52px;height:52px;border-radius:10px;background:var(--cream);display:flex;align-items:center;justify-content:center;font-size:26px}
 .old b{display:block;font-size:15px}.old span{font-size:13px;color:var(--sub)}
 footer{font-size:11.5px;color:var(--sub);text-align:center;padding:26px 20px calc(30px + env(safe-area-inset-bottom,0px));line-height:1.65}
-.st{background:#5b6270}.wait{font-size:13px;font-weight:700;color:#9aa0a8;background:#f1f2f4;padding:7px 14px;border-radius:999px}</style></head><body><div class="wrap">
+.st{background:var(--brand)}.wait{font-size:13px;font-weight:700;color:#9aa0a8;background:#f1f2f4;padding:7px 14px;border-radius:999px}</style></head><body><div class="wrap">
 <div class="tick" role="note"><span>아래 링크로 구매하시면 쿠팡 파트너스·네이버 쇼핑 커넥트 활동으로 일정액의 수수료를 받습니다 ✦ 아래 링크로 구매하시면 쿠팡 파트너스·네이버 쇼핑 커넥트 활동으로 일정액의 수수료를 받습니다 ✦ </span></div>
 <div class="cover"><img src="img/profile.jpg" alt="득템일보 로고"></div>
-<div class="who"><h1>득템일보</h1><p>영상 속 득템, 회차로 바로 찾아요 🔎</p></div>
-<div class="sns"><a href="https://www.instagram.com/deuktemilbo/" target="_blank" rel="noopener">인스타그램</a><a href="https://www.youtube.com/@득템일보" target="_blank" rel="noopener">유튜브</a><a href="https://www.threads.com/@deuktemilbo" target="_blank" rel="noopener">스레드</a><a href="https://clip.naver.com/@jobs840530" target="_blank" rel="noopener">네이버 클립</a><a href="https://deuktemilbo.blogspot.com/" target="_blank" rel="noopener">블로그</a></div>
+<div class="who"><h1>득템일보</h1><p>영상 속 꿀템, 회차로 바로 찾아요 ✨</p></div>
+<div class="sns">
+<a href="https://www.instagram.com/deuktemilbo/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>인스타그램</a>
+<a href="https://www.youtube.com/@득템일보" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.5s-.2-1.6-.9-2.3c-.9-.9-1.8-.9-2.3-1C16.6 4 12 4 12 4s-4.6 0-7.8.2c-.5.1-1.4.1-2.3 1C1.2 5.9 1 7.5 1 7.5S.8 9.4.8 11.2v1.6c0 1.9.2 3.7.2 3.7s.2 1.6.9 2.3c.9.9 2 .9 2.5 1 1.8.2 7.6.2 7.6.2s4.6 0 7.8-.2c.5-.1 1.4-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.7v-1.6C23.2 9.4 23 7.5 23 7.5zM9.7 15.5V8.4l6.1 3.6-6.1 3.5z"/></svg>유튜브</a>
+<a href="https://www.threads.com/@deuktemilbo" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.7 11.1c-.1 0-.2-.1-.3-.1-.2-3-1.8-4.7-4.6-4.7-1.7 0-3.1.7-3.9 2l1.5 1c.6-.9 1.6-1.1 2.4-1.1 1 0 1.7.3 2.2.9.3.4.6 1 .7 1.7-.8-.1-1.6-.2-2.6-.1-2.6.1-4.2 1.7-4.1 3.8.1 1.1.6 2 1.5 2.6.8.5 1.8.7 2.8.7 1.4-.1 2.4-.6 3.2-1.5.6-.7.9-1.6 1.1-2.7.7.4 1.2.9 1.4 1.6.5 1.1.5 2.9-1 4.4-1.3 1.3-2.9 1.9-5.3 1.9-2.6 0-4.6-.9-5.9-2.5-1.2-1.5-1.8-3.7-1.9-6.5.1-2.8.7-5 1.9-6.5 1.3-1.6 3.3-2.5 5.9-2.5 2.6 0 4.7.9 6 2.5.7.8 1.2 1.8 1.5 2.9l1.7-.5c-.4-1.4-1-2.6-1.9-3.6C18.2 1.9 15.7.8 12.5.8h0C9.3.8 6.9 1.9 5.2 3.9 3.8 5.7 3 8.2 3 11.4v.1c0 3.1.8 5.7 2.2 7.4 1.7 2.1 4.1 3.1 7.3 3.1h0c2.9 0 4.9-.8 6.6-2.4 2.2-2.2 2.1-5 1.4-6.6-.5-1.1-1.4-2-2.8-2.6zm-4.9 4.6c-1.1.1-2.2-.4-2.3-1.4 0-.8.5-1.6 2.3-1.7h.6c.7 0 1.3.1 1.9.2-.2 2.4-1.3 2.8-2.5 2.9z"/></svg>스레드</a>
+</div>
 <div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
-<input id="q" type="search" inputmode="search" placeholder="회차나 상품 이름으로 검색 (예: 33)" autocomplete="off" aria-label="상품 검색"></div>
+<input id="q" type="search" inputmode="search" placeholder="회차나 이름으로 검색 (예: 33)" autocomplete="off" aria-label="상품 검색"></div>
 <div class="chip" id="chip" hidden><span id="chipt"></span><button type="button" id="all">전체 보기</button></div>
 <div id="list"><div class="card" id="p100" data-no="35" data-v="v35" data-name="노브랜드 배수관 세척제"><div class="body"><div class="name"><b>35화</b> 노브랜드 배수관 세척제</div><div class="btns"><a class="st" rel="nofollow noopener" target="_blank" href="https://www.ssg.com/search.ssg?query=%EB%85%B8%EB%B8%8C%EB%9E%9C%EB%93%9C%20%EB%B0%B0%EC%88%98%EA%B4%80">이마트몰(SSG)에서 찾기</a></div></div></div>
 <div class="card" id="p102" data-no="35" data-v="v35" data-name="노브랜드 슬림 제습제"><div class="body"><div class="name"><b>35화</b> 노브랜드 슬림 제습제</div><div class="btns"><a class="st" rel="nofollow noopener" target="_blank" href="https://www.ssg.com/search.ssg?query=%EB%85%B8%EB%B8%8C%EB%9E%9C%EB%93%9C%20%EC%A0%9C%EC%8A%B5%EC%A0%9C">이마트몰(SSG)에서 찾기</a></div></div></div>
